@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using BusinessEntities.Interfaces;
 
 namespace BusinessEntities
 {
-    class Book : IBook
+    class Book : Ibook
     {
         public string Title { get; set; }
         public int ISBN { get; set; }

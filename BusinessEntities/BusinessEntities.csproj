@@ -43,7 +43,8 @@
   <ItemGroup>
     <Compile Include="Book.cs" />
     <Compile Include="Class1.cs" />
-    <Compile Include="Interfaces\IBook.cs" />
+    <Compile Include="Enum\Status.cs" />
+    <Compile Include="Interfaces\Ibook.cs" />
     <Compile Include="Interfaces\ILibrarian.cs" />
     <Compile Include="Invoice.cs" />
     <Compile Include="Librarian.cs" />

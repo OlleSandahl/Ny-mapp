@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-
-namespace Data_Layer
+namespace BusinessEntities.Enum
 {
-    public class Class1
+    public enum Status
     {
+        Availabe = 0,
+        Reserved = 1,
+        Returned = 2, 
     }
 }
